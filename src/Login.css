@@ -1,0 +1,44 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-button, .logout-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6b38fb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.login-button:hover, .logout-button:hover {
+    background-color: #5530c5;
+}
+
+.logout-message {
+    color: #28a745;
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.green-tick {
+    color: #28a745;
+    font-size: 24px;
+    margin-right: 10px;
+}
+

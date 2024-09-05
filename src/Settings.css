@@ -1,0 +1,75 @@
+.settings-container {
+    padding: 20px;
+    background: linear-gradient(135deg, purple, black);
+    height: 100vh;
+    
+}
+
+.settings-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.settings-header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.settings-list {
+    background-color: #fff; /* White background for the settings list */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    padding: 10px;
+}
+
+.settings-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e0e0e0; /* Light gray border between items */
+    cursor: pointer;
+    color: #333;
+}
+
+.settings-item:last-child {
+    border-bottom: none;
+}
+
+.settings-item a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.settings-item a:hover {
+    color: #8e2de2; /* Hover effect with purple */
+}
+
+.settings-icon {
+    font-size: 20px;
+    color: #8e2de2; /* Purple icon color */
+}
+
+.settings-item:hover {
+    background-color: #f0f0f0; /* Light gray hover effect */
+}
+
+@media (max-width: 768px) {
+    .settings-item {
+        padding: 10px;
+    }
+
+    .settings-item a {
+        font-size: 14px;
+    }
+
+    .settings-icon {
+        font-size: 18px;
+    }
+}
+
